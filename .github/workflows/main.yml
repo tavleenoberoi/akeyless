@@ -18,7 +18,7 @@ jobs:
        export-secrets-to-outputs: true
        export-secrets-to-environment: true
        static-secrets: |
-        - name: "<Insert/secret/full/name>"
+        - name: "/jwt-secret"
          output-name: "my_first_secret"
         api-url: "https://csm.thalescryptolabs.com/akeyless-api/v2/"
       
