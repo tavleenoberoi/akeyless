@@ -15,7 +15,7 @@ access-id: '${{ secrets.ACCESS_ID }}'
 access-type: jwt
 export-secrets-to-outputs: true
 export-secrets-to-environment: true
-static-secrets: |
+static-secrets:
 - name: "/jwt-secret"
 output-name: "my_first_secret"
 api-url: "https://csm.thalescryptolabs.com/akeyless-api/v2/"
