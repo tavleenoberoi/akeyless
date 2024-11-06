@@ -26,4 +26,3 @@ jobs:
     run: |
      # Use the secret securely within this step
      echo "Doing something with $SECRET"
- 
