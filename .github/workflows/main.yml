@@ -20,7 +20,6 @@ jobs:
       - name: "<Insert/secret/full/name>"
         output-name: "my_first_secret"
       api-url: "https://csm.thalescryptolabs.com/akeyless-api/v2/"
-	  
   - name: Use Akeyless secret (environment variable)
     env:
      SECRET: ${{ env.my_first_secret }}
